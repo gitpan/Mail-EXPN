@@ -1,3 +1,5 @@
+# $Id: EXPN.pm,v 1.2 2003/02/01 10:29:25 florian Exp $
+
 package Mail::EXPN;
 
 use Net::DNS;
@@ -9,7 +11,7 @@ use vars qw(@ISA @EXPORT_OK $BAD $VERSION $first);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(isfake $BAD);
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 $BAD = "SMTP response not understood";
 
@@ -145,6 +147,14 @@ Idea by Raz Information Systems, http://www.raz.co.il.
 =head1 AUTHOR
 
 Ariel Brosh, schop@cpan.org.
+
+=head1 MAINTAINER
+
+Florian Helmberger, florian@cpan.org.
+
+=head1 VERSION
+
+$Id: EXPN.pm,v 1.2 2003/02/01 10:29:25 florian Exp $
 
 =head1 SEE ALSO
 

@@ -1,4 +1,4 @@
-# $Id: EXPN.pm,v 1.2 2003/02/01 10:29:25 florian Exp $
+# $Id: EXPN.pm,v 1.3 2003/02/01 10:45:49 florian Exp $
 
 package Mail::EXPN;
 
@@ -11,7 +11,7 @@ use vars qw(@ISA @EXPORT_OK $BAD $VERSION $first);
 @ISA = qw(Exporter);
 @EXPORT_OK = qw(isfake $BAD);
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 $BAD = "SMTP response not understood";
 
@@ -154,7 +154,7 @@ Florian Helmberger, florian@cpan.org.
 
 =head1 VERSION
 
-$Id: EXPN.pm,v 1.2 2003/02/01 10:29:25 florian Exp $
+$Id: EXPN.pm,v 1.3 2003/02/01 10:45:49 florian Exp $
 
 =head1 SEE ALSO
 

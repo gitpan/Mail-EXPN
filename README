@@ -51,7 +51,7 @@ MAINTAINER
     Florian Helmberger, florian@cpan.org.
 
 VERSION
-    $Id: EXPN.pm,v 1.2 2003/02/01 10:29:25 florian Exp $
+    $Id: README,v 1.2 2003/02/01 10:45:49 florian Exp $
 
 SEE ALSO
     perl(1).
